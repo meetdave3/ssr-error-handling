@@ -17,7 +17,7 @@ function Tile(props) {
   return (
     <ErrorBoundary FallbackComponent={ErrorFallback} key={props.title}>
       <a key={props.title} href={props.link} className={styles.card}>
-        <h3>{props.title} &rarr;</h3>
+        <h3>{props.error.title} &rarr;</h3>
         <p>{props.para.para.para}</p>
       </a>
     </ErrorBoundary>

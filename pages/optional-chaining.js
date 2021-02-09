@@ -6,7 +6,7 @@ import props from './api/data';
 function Tile(props) {
   return (
     <a href={props?.link} className={styles.card}>
-      <h3>{props?.title} &rarr;</h3>
+      <h3>{props?.error?.title} &rarr;</h3>
       <p>{props?.para?.para?.para}</p>
     </a>
   );
